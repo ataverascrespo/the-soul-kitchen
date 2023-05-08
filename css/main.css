@@ -160,15 +160,17 @@ footer {
         font-size: 3em;
         color: #C79360;
         text-align: center;
+        transition: all .50s ease;
     }
     main h2{
-        top: 35%;
+        top: 31%;
         position: fixed;
         font-family: 'Epilogue', serif;
         font-size: 1.2em;
         color: #D4D4D6;
         text-align: center;
         z-index: -10;
+        transition: all .50s ease;
     }
     section {
         position: relative;
@@ -177,6 +179,7 @@ footer {
         align-items: center;
         min-height: 600px;
         padding: 10px;
+        transition: all .50s ease;
     }
     section h2 {
         padding-top: 100px;
@@ -187,6 +190,7 @@ footer {
         color: #D4D4D6;
         font-size: 2em;
         line-height: 1.8;
+        transition: all .50s ease;
     }
     section h3 {
         padding-top: 150px;
@@ -197,6 +201,7 @@ footer {
         color: #e9e9ea;
         font-size: 1.2em;
         line-height: 1.8;
+        transition: all .50s ease;
     }
     .custom-shape-divider-bottom-1683548783 svg {
         position: relative;
