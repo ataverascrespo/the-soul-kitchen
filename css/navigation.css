@@ -1,36 +1,41 @@
 header {
     position: fixed;
+    padding-top: 14px;
     width: 100vw;
-    top: 0;
     right: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background: transparent;
     transition: all .50s ease;
+    z-index: 100;
 }
 .logo {
+    font-family: 'bookmania', serif;
     display: flex;
     align-items: center;
-    font-size: 1.6em;
-    font-weight: bold;
+    font-size: 2.5em;
     margin-left: 50px;
+    color: #C79360;
 }
 .navbar {
     display: flex;
     padding-left: 0px;
     list-style: none;
     text-decoration: none;
-    margin-right: 50px;
+    margin-right: 0px;
 }
 .navbar a {
-    font-size: 1.1em;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    color:  #D4D4D6;
     padding: 5px 0;
     margin: 0px 30px;
     transition: all .50s ease;
 }
 .navbar a:hover{
-    color: blue;
+    color: #C79360;
 }
 #menu-icon{
     font-size: 25px;
@@ -38,10 +43,9 @@ header {
     display: none;
     margin-right: 20px;
 }
-
 @media (max-width: 1280px){
-    .logo{
-        margin-left: 25px;
+    header {
+        justify-content: center;
     }
     header {
         padding: 14px 2%;
@@ -54,13 +58,13 @@ header {
 }
 
 @media (max-width: 1090px){
-    .logo{
-        margin-left: 25px;
-        font-size: 1.3em;
+    header {
+        justify-content: flex-end;
     }
     #menu-icon {
         display: block;
         z-index: 100;
+        color: #D4D4D6;
     }
     .navbar {
         position: absolute;
@@ -73,7 +77,7 @@ header {
         flex-direction: column;
         justify-content: flex-start;
         border-radius: 10px;
-        background-color: rgb(217, 217, 217);
+        background-color: #756151;
         transition: all .50s ease;
         margin-right: 0px;
     }
@@ -83,6 +87,9 @@ header {
         padding: 0px 25px;
         transition: all .50s ease;
         font-size: 1.5em;
+    }
+    .navbar a:hover{
+        color: #C79360
     }
     .navbar.open{
         right: -1%;
