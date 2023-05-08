@@ -32,6 +32,15 @@ main h1 {
     text-align: left;
     z-index: -10;
 }
+main h2{
+    top: 25%;
+    position: fixed;
+    font-family: 'Epilogue', serif;
+    font-size: 2em;
+    color: #D4D4D6;
+    text-align: center;
+    z-index: -10;
+}
 section {
     position: relative;
     display: flex;
@@ -66,13 +75,17 @@ section h3 {
 }
 a {
     text-decoration: none;
-    color: #e9e9ea;
+    color: #5E6F7C;
+    transition: all .50s ease;
 }
-a:hover{
+a:hover {
     text-decoration: none;
     color: #C79360;
+    font-size: 50px;
+    cursor: pointer;
+    transition: all .50s ease;
 }
-.links{
+.links {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -80,13 +93,13 @@ a:hover{
     margin-top: 350px;
     gap: 100px;
 }
-.links img{
+.links img {
     width: 100px;
     height: 100px;
     filter: brightness(0) invert(1);
     transition: all .50s ease;
 }
-.links img:hover{
+.links img:hover {
     width: 120px;
     height: 120px;
     transition: all .50s ease;
@@ -148,6 +161,15 @@ footer {
         color: #C79360;
         text-align: center;
     }
+    main h2{
+        top: 30%;
+        position: fixed;
+        font-family: 'Epilogue', serif;
+        font-size: 1.2em;
+        color: #D4D4D6;
+        text-align: center;
+        z-index: -10;
+    }
     section {
         position: relative;
         display: flex;
@@ -173,7 +195,7 @@ footer {
         font-family: 'Epilogue', sans-serif;
         font-weight: 600;
         color: #e9e9ea;
-        font-size: 1.5em;
+        font-size: 1.2em;
         line-height: 1.8;
     }
     .custom-shape-divider-bottom-1683548783 svg {
@@ -208,6 +230,18 @@ footer {
     .links img:hover{
         width: 80px;
         height: 80px;
+        transition: all .50s ease;
+    }
+    a {
+        text-decoration: none;
+        color: #5E6F7C;
+        transition: all .50s ease;
+    }
+    a:hover {
+        text-decoration: none;
+        color: #C79360;
+        font-size: 25px;
+        cursor: pointer;
         transition: all .50s ease;
     }
 }
