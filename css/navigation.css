@@ -72,12 +72,11 @@ header {
         right: -100%;
         width: 99%;
         padding-top: 100px;
-        height: 30vh;
+        height: 25vh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: rgba(164, 164, 164, 0.15);  
-        backdrop-filter: blur(10px);
+        background-color: rgb(49, 49, 49);  
         transition: all .50s ease;
         margin-right: 0px;
     }
