@@ -135,7 +135,7 @@ a:hover {
         line-height: 40px;
     }
     section h3 {
-        top: 35%;
+        top: 45%;
         position: fixed;
         font-family: 'Epilogue', serif;
         font-size: 1.2em;
@@ -146,7 +146,7 @@ a:hover {
         line-height: 30px;
     }
     section h4 {
-        top: 45%;
+        top: 55%;
         position: fixed;
         font-family: 'Epilogue', serif;
         font-size: 1em;
