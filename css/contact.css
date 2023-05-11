@@ -6,7 +6,6 @@
     font-weight: bold;
 }
 
-
 footer {
     font-family: 'Epilogue', sans-serif;
     font-weight: 600;
@@ -128,15 +127,15 @@ a:hover {
         top: 20%;
         position: fixed;
         font-family: 'Epilogue', serif;
-        font-size: 1.2em;
+        font-size: 1.3em;
         color: #D4D4D6;
         text-align: center;
         z-index: -10;
-        width: 80%;
+        width: 90%;
         line-height: 40px;
     }
     section h3 {
-        top: 50%;
+        top: 40%;
         position: fixed;
         font-family: 'Epilogue', serif;
         font-size: 1.2em;
@@ -144,6 +143,17 @@ a:hover {
         text-align: center;
         z-index: 100;
         width: 80%;
+        line-height: 30px;
+    }
+    section h4 {
+        top: 50%;
+        position: fixed;
+        font-family: 'Epilogue', serif;
+        font-size: 1em;
+        color: #5E6F7C;
+        text-align: center;
+        z-index: 100;
+        width: 75%;
         line-height: 30px;
     }
     .links {
