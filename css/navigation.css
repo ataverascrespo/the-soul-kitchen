@@ -70,23 +70,24 @@ header {
         position: absolute;
         top: -100%;
         right: -100%;
-        width: 150px;
+        width: 99%;
         padding-top: 100px;
-        height: 100vh;
+        height: 30vh;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        border-radius: 10px;
-        background-color: #756151;
+        align-items: center;
+        background-color: rgba(164, 164, 164, 0.15);  
+        backdrop-filter: blur(10px);
         transition: all .50s ease;
         margin-right: 0px;
     }
     .navbar a {
         display: block;
         margin: 12px 0;
-        padding: 0px 25px;
+        padding: 0px 50px;
+        padding-bottom: 20px;
         transition: all .50s ease;
-        font-size: 1.5em;
+        font-size: 2.5em;
     }
     .navbar a:hover{
         color: #C79360
