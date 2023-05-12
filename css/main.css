@@ -65,7 +65,7 @@ section h2 {
 section h3 {
     position: absolute;
     padding-top: 100px;
-    width: 60vw;
+    width: 75vw;
     text-align: center;
     font-family: 'Epilogue', sans-serif;
     font-weight: 600;
@@ -78,11 +78,16 @@ a {
     color: #5E6F7C;
     transition: all .50s ease;
 }
-a:hover {
+a:hover, a:focus, a:active {
     text-decoration: none;
     color: #C79360;
     font-size: 50px;
     cursor: pointer;
+    transition: all .50s ease;
+}
+a:after {
+    text-decoration: none;
+    color: #5E6F7C;
     transition: all .50s ease;
 }
 .links {
@@ -155,7 +160,8 @@ footer {
 
 @media screen and (max-width: 1090px){
     main h1 {
-        top: 20%;
+        top: 200px;
+        position: fixed;
         font-family: 'bookmania', serif;
         font-size: 3em;
         color: #C79360;
@@ -163,7 +169,7 @@ footer {
         transition: all .50s ease;
     }
     main h2{
-        top: 31%;
+        top: 275px;
         position: fixed;
         font-family: 'Epilogue', serif;
         font-size: 1.2em;
@@ -182,7 +188,7 @@ footer {
     }
     section h2 {
         padding-top: 100px;
-        width: 60vw;
+        width: 65vw;
         text-align: center;
         font-family: 'Epilogue', sans-serif;
         font-weight: 600;
@@ -193,12 +199,12 @@ footer {
     }
     section h3 {
         padding-top: 300px;
-        width: 65vw;
+        width: 89vw;
         text-align: center;
         font-family: 'Epilogue', sans-serif;
         font-weight: 600;
         color: #e9e9ea;
-        font-size: 1.2em;
+        font-size: 1.3em;
         line-height: 1.8;
         transition: all .50s ease;
     }
@@ -353,5 +359,46 @@ and (max-width: 1090px) {
         cursor: pointer;
         transition: all .50s ease;
     }
-    
+}
+
+@media screen and (max-width: 667px){
+    main h1 {
+        top: 100px;
+        position: fixed;
+        font-family: 'bookmania', serif;
+        font-size: 3em;
+        color: #C79360;
+        text-align: center;
+        transition: all .50s ease;
+    }
+    main h2{
+        top: 175px;
+        position: fixed;
+        font-family: 'Epilogue', serif;
+        font-size: 1.2em;
+        color: #D4D4D6;
+        text-align: center;
+        z-index: -10;
+        transition: all .50s ease;
+    }
+    section h3 {
+        padding-top: 350px;
+        width: 89vw;
+        text-align: center;
+        font-family: 'Epilogue', sans-serif;
+        font-weight: 600;
+        color: #e9e9ea;
+        font-size: 1.3em;
+        line-height: 1.8;
+        transition: all .50s ease;
+    }
+    .links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 375px;
+        gap: 40px;
+        overflow-x: hidden;
+    }
 }
