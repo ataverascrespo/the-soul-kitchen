@@ -70,15 +70,16 @@ header {
         position: absolute;
         top: -100%;
         right: -100%;
-        width: 99%;
-        padding-top: 100px;
+        width: 45%;
+        padding-top: 125px;
         height: 25vh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: rgb(49, 49, 49);  
+        background-color: #221e1e;  
         transition: all .50s ease;
         margin-right: 0px;
+        border-bottom-left-radius: 40px;
     }
     .navbar a {
         display: block;
@@ -86,12 +87,40 @@ header {
         padding: 0px 50px;
         padding-bottom: 20px;
         transition: all .50s ease;
-        font-size: 2.5em;
+        font-size: 1.5em;
+        text-align: end;
     }
     .navbar a:hover{
         color: #C79360
     }
     .navbar.open{
         right: -1%;
+    }
+}
+
+@media only screen and (max-height: 480px) and (min-height: 200px)  {
+    .navbar {
+        position: absolute;
+        top: -100%;
+        right: -100%;
+        width: 45%;
+        padding-top: 100px;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #221e1e; 
+        transition: all .50s ease;
+        margin-right: 0px;
+        border-bottom-left-radius: 40px;
+    }
+    .navbar a {
+        display: block;
+        margin: 12px 0;
+        padding: 0px 50px;
+        padding-bottom: 20px;
+        transition: all .50s ease;
+        font-size: 1em;
+        text-align: end;
     }
 }

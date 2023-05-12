@@ -402,3 +402,57 @@ and (max-width: 1090px) {
         overflow-x: hidden;
     }
 }
+
+@media only screen and (max-height: 480px) and (min-height: 200px)  {
+      main h1 {
+        top: 50px;
+        position: fixed;
+        font-family: 'bookmania', serif;
+        font-size: 2em;
+        color: #C79360;
+        text-align: center;
+        transition: all .50s ease;
+    }
+    main h2{
+        top: 100px;
+        position: fixed;
+        font-family: 'Epilogue', serif;
+        font-size: 1em;
+        color: #D4D4D6;
+        text-align: center;
+        z-index: -10;
+        transition: all .50s ease;
+    }
+    section h2 {
+        padding-top: 100px;
+        width: 70vw;
+        text-align: center;
+        font-family: 'Epilogue', sans-serif;
+        font-weight: 600;
+        color: #D4D4D6;
+        font-size: 1.4em;
+        line-height: 1.8;
+        transition: all .50s ease;
+    }
+    section h3 {
+        padding-top: 350px;
+        width: 89vw;
+        text-align: center;
+        font-family: 'Epilogue', sans-serif;
+        font-weight: 600;
+        color: #e9e9ea;
+        font-size: 1em;
+        line-height: 1.8;
+        transition: all .50s ease;
+    }
+    .links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 375px;
+        gap: 40px;
+        overflow-x: hidden;
+    }
+    
+}
